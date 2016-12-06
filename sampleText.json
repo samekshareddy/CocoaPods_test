@@ -1,0 +1,9 @@
+{
+    "enableBpmValidation": true,
+    "bpmValidations": [
+                       {
+                       "businessProcessName": "sampleData",
+                       "partBValidation": true,
+                       
+                       }]
+}
