@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@import HockeySDK;
+
 //! Project version number for CocoaPods_packagetest.
 FOUNDATION_EXPORT double CocoaPods_packagetestVersionNumber;
 
@@ -15,5 +17,16 @@ FOUNDATION_EXPORT double CocoaPods_packagetestVersionNumber;
 FOUNDATION_EXPORT const unsigned char CocoaPods_packagetestVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CocoaPods_packagetest/PublicHeader.h>
+
+@interface  sampleClass : NSObject
+
++(void)print;
++(NSString *)ReadConfigurationJson;
+
+@end
+
+@interface sampleClass2 : NSString
+
+@end
 
 
